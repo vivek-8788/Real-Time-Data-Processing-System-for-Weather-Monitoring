@@ -1,0 +1,35 @@
+{
+  "RainBot": {
+    "enabled": true,
+    "conditions": [
+      {
+        "type": "humidity",
+        "operator": "greaterThan",
+        "value": 70
+      }
+    ],
+    "message": "It looks like it's about to pour down!"
+  },
+  "SunBot": {
+    "enabled": true,
+    "conditions": [
+      {
+        "type": "temperature",
+        "operator": "greaterThan",
+        "value": 30
+      }
+    ],
+    "message": "Wow, it's a scorcher out there!"
+  },
+  "SnowBot": {
+    "enabled": true,
+    "conditions": [
+      {
+        "type": "temperature",
+        "operator": "lessThan",
+        "value": 0
+      }
+    ],
+    "message": "Brrr, it's getting chilly!"
+  }
+}
